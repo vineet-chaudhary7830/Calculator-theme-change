@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="calculator.png" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body id="body">
+     <input type="text" id="inp">
+     <button id="dark"></button>
+     <button id="light"></button>
+    <div class="main" id="main1">
+       
+        <div class="digits" id="sqrt">Sqt</div>
+        <div class="digits" id="sin">Sin</div>
+        <div class="digits" id="cos">Cos</div>
+        <div class="digits" id="tan">Tan</div>
+        <div class="digits" id="clear">Clr</div>
+        <div class="digits" id="percnt" onclick="push('%')">%</div>
+        <div class="digits" id="del">Del</div>
+        <div class="digits" id="equal" onclick="equal()">=</div>
+        <div class="digits" id="num7" onclick="push('7')" onkeydown="key()">7</div>
+        <div class="digits" id="num8" onclick="push('8')">8</div>
+        <div class="digits" id="num9" onclick="push('9')">9</div>
+        <div class="digits" id="mult" onclick="push('*')">*</div>
+        <div class="digits" id="num4" onclick="push('4')">4</div>
+        <div class="digits" id="num5" onclick="push('5')">5</div>
+        <div class="digits" id="num6" onclick="push('6')">6</div>
+        <div class="digits" id="minus" onclick="push('-')">-</div>
+        <div class="digits" id="num1" onclick="push('1')">1</div>
+        <div class="digits" id="num2" onclick="push('2')">2</div>
+        <div class="digits" id="num3" onclick="push('3')">3</div>
+        <div class="digits" id="plus" onclick="push('+')">+</div>
+        <div class="digits" id="num00" onclick="push('00')">00</div>
+        <div class="digits" id="num0" onclick="push('0')">0</div>
+        <div class="digits" id="dot" onclick="push('.')">.</div>
+        <div class="digits" id="divide" onclick="push('/')">/</div>
+        
+    </div>
+    <div id="instructions">
+        <p><u>General instructions</u></p><br>
+        <p>1.Above 2 buttons are for <b>Theme</b><br><br>
+           2.  Keyboard can also be used.<br><br>
+           3.  To find SQRT,SIN,COS,TAN values:- <br>first type the number 
+            and after that <br>click on the function.<br><br>
+           4.  Always check whether you have typed <br>write or wrong?<br><br>
+           5.   ❌ Do not overwrite the input.<br><br>
+           6.  Copyright© Chaudhary's.
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

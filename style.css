@@ -1,0 +1,83 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+body{
+    background-color: #46a094;
+}
+#dark{
+    height: 20px;
+    width: 20px;
+    background-color: #17181c;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    right: 250px;
+    top: 20px;
+    cursor: pointer;
+}
+#light{
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 2px solid #016170;
+    position: absolute;
+    right: 220px;
+    top: 20px;
+    cursor: pointer;
+}
+input{
+    height: 70px;
+    width: 33vw;
+    position: absolute;
+    left: 455px;
+    top: 35px;
+    background-color: #aecfa4;
+    border: none;
+    border-radius: 20px;
+    color: #17181c;
+    box-shadow: 2px 2px 2px #6e726c,  -2px -2px 2px #6e726c,
+                inset 0px 0px 5px #6e726c;
+    font-size: 1.75rem;
+    text-align: right;
+    padding-right: 15px;
+    letter-spacing: 1px;           
+}
+.main{
+    margin: auto;
+    margin-top: 11px;
+    height: 600px;
+    width: 490px;
+    background-color: #016170;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 10px 10px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 110px;
+    font-weight: 500;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 2px #6e726c,  -2px -2px 2px #25946f; */
+}
+.digits{
+    background-color: #ffffff;
+    height: 50px;
+    width: 90px;
+    padding-top: 11.5px;
+    border-radius:  50px;;
+    font-size: 1.28rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 3px 3px 4px #6e726c;
+    font-family: 'Open Sans', sans-serif;
+}
+.digits:hover{
+    box-shadow: -4px -4px 5px #383d3a;
+}
+#instructions{
+    position: absolute;
+    bottom: 100px;
+    right: 30px;
+    background-color:#46a094 ;
+    color: #ffffff;
+}
